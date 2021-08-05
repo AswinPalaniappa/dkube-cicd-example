@@ -8,3 +8,8 @@ pipelines:
   path: kubeflow/pipeline
   pipelines:
     - name: workflow.py
+    
+images:
+  path: images
+  images:
+    - name: my-image1
